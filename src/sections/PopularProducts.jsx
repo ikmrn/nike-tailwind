@@ -1,5 +1,5 @@
-const Footer = () => {
-  return <div>Footer</div>;
+const PopularProducts = () => {
+  return <div>PopularProducts</div>;
 };
 
-export default Footer;
+export default PopularProducts;
