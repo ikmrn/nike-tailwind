@@ -31,6 +31,7 @@ const Hero = () => {
           your active life.
         </p>
         <Button label="Shop now" iconURL={arrowRight} />
+        
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat, index) => (
             <div key={index}>
@@ -50,10 +51,10 @@ const Hero = () => {
           alt="shoe collection"
           width={610}
           height={502}
-          className="object-contain relative z-10"
+          className="object-contain relative z-1"
         />
 
-        <div className="flex sm:gap-6 gap-4 absolute bottom-[5%] sm:left-[50%] max-sm:px-6">
+        <div className="flex sm:gap-6 gap-4 absolute bottom-[3%] xl:-left-[5%] max-sm:px-6 z-2">
           {shoes.map((shoe, index) => (
             <div key={index}>
               <ShoeCard
